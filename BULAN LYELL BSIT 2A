@@ -1,0 +1,43 @@
+/*create database dbstore;
+
+create table products(
+product_id int auto_increment primary key,
+nameofItem varchar(50) not null,
+numberofItem int not null,
+grams varchar(10) not null,
+price decimal(10,2) not null,
+expiration_date DATE not null
+);*/
+
+insert into products(
+nameofItem,
+numberofItem,
+grams,
+price,
+expiration_date
+)VALUES
+("COMBI" , 50 , "30G" , 10.00 , "2024-10-31"),
+("FUDGE BAR" , 100 , "20G" , 8.00 , "2026-09-05"),
+("HANSEL" , 100 , "50G" , 10.00 , "2025-08-08"),
+("SUGAR" , 100 , "50G" , 20.00 , "2025-07-31"),
+("COFFEEMATE" , 50 , "80G" , 40.00 , "2024-12-30"),
+("GREATE TASTE" , 50 , "25G" , 30.00 , "2025-11-23"),
+("MILO" , 40 , "20G" , 10.00 , "2026-01-20"),
+("XO" , 200 , "5G" , 3.00 , "2025-02-28"),
+("MAXX" , 200 , "5G" , 2.50 , "2026-03-18"),
+("MENTOS" , 300 , "8G" , 3.00 , "2027-04-14"),
+("FRES" , 300 , "5G" , 1.00 , "2028-05-12"),
+("CHOOEYCHOCO" , 50 , "5G" , 3.00 , "2025-08-12"),
+("VFRESH" , 200 , "50G" , 2.00 , "2026-06-05"),
+("LALA" , 50 , "10G" , 8.00 , "2028-02-14"),
+("VCUT" , 80 , "20G" , 10.00 , "2029-09-23"),
+("CHIPPY" , 70 , "10G" , 10.00 , "2025-09-05"),
+("SUGO" , 30 , "10G" , 15.00 , "2027-07-12"),
+("CLOVER" , 50 , "20G" , 8.00 , "2024-11-10"),
+("NOVA" , 30 , "20G" , 20.00 , "2026-12-20"),
+("PIATOS" , 50 , "20G" , 20.00 , "2028-01-30"),
+("MOBY" , 80 , "10G" , 8.00 , "2027-05-16"),
+("POTATO FRIES" , 100 , "15G" , 8.00 , "2029-09-18"),
+("COKE" , 60 , "20G" , 25.00 , "2030-08-31"),
+("ROYAL" , 50 , "30G" , 25.00 , "2031-09-30"),
+("MOUNTAIN DEW" , 50 , "20G" , 25.00 , "2032-12-20")
